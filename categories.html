@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>hello</title>
+
+<link rel="stylesheet" href="css/libs/jquery.fancybox.css">
+<link rel="stylesheet" href="css/libs/font-awesome.min.css">
+<link rel="stylesheet" href="css/libs/mmenu.css">
+<link rel="stylesheet" href="css/libs/slick.css">
+<link rel="stylesheet" href="css/libs/owl.carousel.css">
+<link rel="stylesheet" href="css/libs/jquery.ui.css">
+<link rel="stylesheet" href="css/libs/fotorama.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>    
+    <div class="mmenu-page">
+        <!-- Header -->
+        <header class="header">
+	<div id="nav" class="navbar">
+		<!-- Верхний хедер -->
+		<div class="navbar-top">
+			<div class="container">
+				<div class="navbar-wrap">
+					<!-- Логотип -->
+					<div class="logo navbar__logo">
+						<a href="#"><img src="img/logo.png" alt="Topsi"></a>
+					</div>
+					
+					<!-- Меню категорий -->
+					<div class="navbar__cat">
+						<a href="#mob-menu">
+							<i class="fa fa-bars"></i>
+							Категории
+						</a>
+					</div>
+
+					<!-- Поиск -->
+					<div class="navbar__search">
+						<form action="navbar__form-search">
+							<input type="text" name="search" placeholder="Поиск по сайту...">
+							<button type="submit"><i class="fa fa-search"></i></button>
+						</form>
+						<a href="#">
+							<i class="fa fa-search"></i>
+						</a>
+					</div>
+	
+					<!-- Контакты -->
+					<div class="navbar__phone">
+						<a href="#phone">
+							<i class="fa fa-phone"></i>
+							+38 (050) 415 87 44
+						</a>
+					</div>
+	
+					<!-- Пользовательская панель -->
+					<div class="navbar__user-panel">
+						<div class="private-office">
+							<a href="#">
+								<i class="fa fa-user-circle-o"></i>
+							</a>
+						</div>
+						<span class="vertical-line"></span>
+						<div class="basket">
+							<a href="#cart">
+								<i class="fa fa-shopping-basket"></i>
+								<span class="num-product">12</span>
+							</a>
+						</div>
+					</div>
+	
+					<!-- Collapse nav button -->
+					<a class="navbar__collapse" href="#mob-menu">
+						<span></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- Нижний хедер -->
+		<div class="navbar-bottom">
+			<div class="container">
+				<div class="navbar-wrap">
+					<!-- Меню -->
+					<ul id="navbar__menu" class="navbar__menu">
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Магазины</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Программа лояльности</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+        <!-- /.Header -->
+        <!-- Main -->
+        <main>
+            <div class="container">
+                <div class="page page-reviews">
+                    <aside class="main-sidebar">
+                        <div class="cat-menu">
+    <ul>
+        <li><a href="#"><img src="img/icons/dog.svg" alt=""><span>Собаки</span><i class="fa fa-chevron-right"></i></a>
+            <ul>
+                <li><a href="#">Сухие корма для собак</a></li>
+                <li><a href="#">Консервированные корма для собак</a></li>
+                <li><a href="#">Лечебные корма</a></li>
+                <li><a href="#">Средства от блох, клещей, глистов</a></li>
+                <li><a href="#">Кости и лакомства</a></li>
+                <li><a href="#">Ветеринария</a></li>
+                <li><a href="#">Витамины для собак</a></li>
+                <li><a href="#">Игрушки</a></li>
+                <li><a href="#">Заменители молока</a></li>
+                <li><a href="#">Косметика</a></li>
+                <li><a href="#">Уход и гигиена</a></li>
+                <li><a href="#">Переноски, спальные места</a></li>
+                <li><a href="#">Груминг</a></li>
+                <li><a href="#">Посуда</a></li>
+                <li><a href="#">Одежда</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <img src="img/banner/dog_slide.png" alt="">
+            </ul>
+        </li>
+        <li><a href="#"><img src="img/icons/cat.svg" alt=""><span>Кошки</span><i class="fa fa-chevron-right"></i></a>
+        </li>
+        <li><a href="#"><img src="img/icons/parrot-facing-left.svg" alt=""><span>Птицы</span><i
+                    class="fa fa-chevron-right"></i></a></li>
+        <li>
+            <a href="#"><img src="img/icons/hamster.svg" alt=""><span>Грызуны</span><i
+                    class="fa fa-chevron-right"></i></a>
+            <ul>
+                <li><a href="#">Корм для грызунов</a></li>
+                <li><a href="#">Витаминные добавки</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Ветеринария</a></li>
+                <li><a href="#">Игрушки</a></li>
+                <li><a href="#">Клетки для грызунов</a></li>
+                <li><a href="#">Средства гигиены</a></li>
+                <li><a href="#">Лакомства</a></li>
+                <li><a href="#">Живые грызуны</a></li>
+                <img src="img/banner/b-2.png" alt="">
+            </ul>
+        </li>
+        <li><a href="#"><img src="img/icons/fish.svg" alt=""><span>Рыбы</span><i class="fa fa-chevron-right"></i></a>
+        </li>
+        <li><a href="#"><img src="img/icons/turtle.svg" alt=""><span>Рептилии</span><i
+                    class="fa fa-chevron-right"></i></a></li>
+        <li><a href="#"><img src="img/icons/horse.svg" alt=""><span>Лошади</span><i class="fa fa-chevron-right"></i></a>
+        </li>
+    </ul>
+</div>
+                    </aside>
+                    <div class="main-content">
+                        <div class="breadcrumb">
+    <ul>
+        <li><a href="#">ГЛАВНАЯ</a></li>
+        <li><a href="#">КАТАЛОГ</a></li>
+        <li>СОБАКИ</li>
+    </ul>
+</div>
+                        <div class="categories">
+    <div class="quick-categories__list">
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для собак</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/1.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для кошек</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/2.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для птиц</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/6.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для грызунов</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/3.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для рыбы</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/4.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для рептилий</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/5.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>для лошадей</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/categories/7.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+        <a class="quick-categories__item" href="#">
+            <div class="text">
+                <span>наша марка</span>
+                <button class="btn"><i class="fa fa-chevron-right"></i></button>
+            </div>
+            <div class="img">
+                <img class="obj" src="img/logo.png" alt="">
+                <img class="bg" src="img/categories/bg.png" alt="">
+            </div>
+        </a>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- /.Main -->
+        <!-- Footer -->
+        <footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer__logo">
+                <a class="logo" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <p>Интернет магазин по продаже товаров для животных</p>
+            </div>
+            <div class="footer__links">
+                <ul>
+                    <li>
+                        <ul class="list list-01">
+                            <li class="list__title">КАТАЛОГ ТОВАРОВ</li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Собаки</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Кошки</span></a></li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Птицы</span></a></li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Грызуны</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Рыбы</span></a></li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Рептилии</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Лошади</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list list-01">
+                            <li class="list__title">Меню</li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Доставка</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Оплата</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Возврат</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Гарантии</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i
+                                        class="fa fa-paw"></i><span>Контакты</span></a>
+                            </li>
+                            <li class="list__item list-01__item"><a href="#"><i class="fa fa-paw"></i><span>О
+                                        нас</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list list-02">
+                            <li class="list__title">Контакты</li>
+                            <li class="list__item list-02_email"><a href="#">info@topsi.com.ua</a></li>
+                            <li class="list__item list-02_timetable">
+                                <span>Пн-Пт : 10.00 - 18.00</span>
+                                <span>Cуббота, воскресенье: выходные</span>
+                            </li>
+                            <li class="list__item list-02_phone"><a href="#">+38 (050) 415 87 44</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-wrap">
+                <a class="footer-bottom__copyright" href="#">© 2005 - 2019 Зоомагазин ® Все права защищены</a>
+                <div class="footer-bottom__networks">
+                    <div class="networks networks-01">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-telegram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        <!-- /.Footer -->
+    </div>
+    <!-- Modal -->
+    <!-- cart -->
+<nav id="cart">
+    <div class="card-modal" style="display: block;">
+        <!--table-->
+        <div class="item">
+            <div class="item-img">
+                <img src="img/product/dog.png" alt="">
+            </div>
+            <div class="item-content">
+                <div style="font-size:11px" class="code-inf">арт. №003100</div>
+                <a href="#" class="item-title"> Селикагелевый гигиенический наполнитель ТМ \»TOPSI Crystal\», 3,8
+                    л.</a>
+                <div class="item-content-total">
+                    <span class="item-total-price">250 </span> x
+                    <div class="product__cart_ plusminus22058 product__add" style="display:inline-block">
+
+                        <button type="button" class="sub" onclick="minusc(this)">-</button>
+                        <input type="text" value="1" name="qty" min="0" max="1000000" onkeypress="return testKey(event)"
+                            onchange="cqitemIB(0, this.value);">
+                        <button type="button" class="add" onclick="plusc(this)">+</button>
+                    </div> = <span class="item-total-price">250 </span> грн.
+                </div>
+            </div>
+            <div class="item-delete" id="deleFromBasket">
+                <a class="item-delete-link" href="#" onclick="RemoveFromCart('1'); return false"><i
+                        class="fa fa-trash"></i></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/product/dog.png" alt="">
+            </div>
+            <div class="item-content">
+                <div style="font-size:11px" class="code-inf">арт. №003100</div>
+                <a href="#" class="item-title"> Селикагелевый гигиенический наполнитель ТМ \»TOPSI Crystal\», 3,8
+                    л.</a>
+                <div class="item-content-total">
+                    <span class="item-total-price">250 </span> x
+                    <div class="product__cart_ plusminus22058 product__add" style="display:inline-block">
+
+                        <button type="button" class="sub" onclick="minusc(this)">-</button>
+                        <input type="text" value="1" name="qty" min="0" max="1000000" onkeypress="return testKey(event)"
+                            onchange="cqitemIB(0, this.value);">
+                        <button type="button" class="add" onclick="plusc(this)">+</button>
+                    </div> = <span class="item-total-price">250 </span> грн.
+                </div>
+            </div>
+            <div class="item-delete" id="deleFromBasket">
+                <a class="item-delete-link" href="#" onclick="RemoveFromCart('1'); return false"><i
+                        class="fa fa-trash"></i></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/product/dog.png" alt="">
+            </div>
+            <div class="item-content">
+                <div style="font-size:11px" class="code-inf">арт. №003100</div>
+                <a href="#" class="item-title"> Селикагелевый гигиенический наполнитель ТМ \»TOPSI Crystal\», 3,8
+                    л.</a>
+                <div class="item-content-total">
+                    <span class="item-total-price">250 </span> x
+                    <div class="product__cart_ plusminus22058 product__add" style="display:inline-block">
+
+                        <button type="button" class="sub" onclick="minusc(this)">-</button>
+                        <input type="text" value="1" name="qty" min="0" max="1000000" onkeypress="return testKey(event)"
+                            onchange="cqitemIB(0, this.value);">
+                        <button type="button" class="add" onclick="plusc(this)">+</button>
+                    </div> = <span class="item-total-price">250 </span> грн.
+                </div>
+            </div>
+            <div class="item-delete" id="deleFromBasket">
+                <a class="item-delete-link" href="#" onclick="RemoveFromCart('1'); return false"><i
+                        class="fa fa-trash"></i></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/product/dog.png" alt="">
+            </div>
+            <div class="item-content">
+                <div style="font-size:11px" class="code-inf">арт. №003100</div>
+                <a href="#" class="item-title"> Селикагелевый гигиенический наполнитель ТМ \»TOPSI Crystal\», 3,8
+                    л.</a>
+                <div class="item-content-total">
+                    <span class="item-total-price">250 </span> x
+                    <div class="product__cart_ plusminus22058 product__add" style="display:inline-block">
+
+                        <button type="button" class="sub" onclick="minusc(this)">-</button>
+                        <input type="text" value="1" name="qty" min="0" max="1000000" onkeypress="return testKey(event)"
+                            onchange="cqitemIB(0, this.value);">
+                        <button type="button" class="add" onclick="plusc(this)">+</button>
+                    </div> = <span class="item-total-price">250 </span> грн.
+                </div>
+            </div>
+            <div class="item-delete" id="deleFromBasket">
+                <a class="item-delete-link" href="#" onclick="RemoveFromCart('1'); return false"><i
+                        class="fa fa-trash"></i></a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-img">
+                <img src="img/product/dog.png" alt="">
+            </div>
+            <div class="item-content">
+                <div style="font-size:11px" class="code-inf">арт. №003100</div>
+                <a href="#" class="item-title"> Селикагелевый гигиенический наполнитель ТМ \»TOPSI Crystal\», 3,8
+                    л.</a>
+                <div class="item-content-total">
+                    <span class="item-total-price">250 </span> x
+                    <div class="product__cart_ plusminus22058 product__add" style="display:inline-block">
+
+                        <button type="button" class="sub" onclick="minusc(this)">-</button>
+                        <input type="text" value="1" name="qty" min="0" max="1000000" onkeypress="return testKey(event)"
+                            onchange="cqitemIB(0, this.value);">
+                        <button type="button" class="add" onclick="plusc(this)">+</button>
+                    </div> = <span class="item-total-price">250 </span> грн.
+                </div>
+            </div>
+            <div class="item-delete" id="deleFromBasket">
+                <a class="item-delete-link" href="#" onclick="RemoveFromCart('1'); return false"><i
+                        class="fa fa-trash"></i></a>
+            </div>
+        </div>
+        <!--/table-->
+        <hr>
+        <div class="sum">
+            <div class="sum-total">Сумма: <span>695 грн.</span></div>
+            <div class="buttons">
+                <button class="sum-btn inBasket qbo1click" onclick="openmodal();return false;">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    Быстрый заказ
+                </button>
+                <a href="oformlenie-pokupki.html" class="sum-btn do-order">
+                    <i class="fa fa-check"></i>
+                    Оформить
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- /cart -->
+<!-- phone -->
+<nav id="phone">
+    <div class="phone-modal" style="display: block;">
+        <div class="menu-phone">
+            <div class="menu-phone__numbers">
+                <ul>
+                    <li><a href="#"><img src="img/kievstar-logo.png" alt=""><span>+38 (050) 415 87 44</span></a></li>
+                </ul>
+            </div>
+            <ul class="menu-phone__timetable">
+                <li>Время работы</li>
+                <li>с 09:00 до 19:00</li>
+                <li>ПН-СБ. <span>ВС</span> - Выходной</li>
+            </ul>
+            <div class="menu-phone__btns">
+                <div class="col-2"><a class="btn menu-phone-btn" href="#">Перезвонить</a></div>
+                <div class="col-2"><a class="btn menu-phone-btn" href="#">Написать нам</a></div>
+                <div class="col-1"><a class="btn menu-phone-btn" href="#">Доставка</a></div>
+                <div class="col-1"><a class="btn menu-phone-btn" href="#">Оплата</a></div>
+                <div class="col-2"><a class="btn menu-phone-btn" href="#">Отследить заказ</a></div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- /phone -->
+<!-- mob-menu -->
+<nav id="mob-menu">
+    <ul>
+        <li><a href="#"><img src="img/icons/dog.svg" alt=""><span>Собаки</span></a>
+            <ul>
+                <li><a href="#">Сухие корма для собак</a></li>
+                <li><a href="#">Консервированные корма для собак</a></li>
+                <li><a href="#">Лечебные корма</a></li>
+                <li><a href="#">Средства от блох, клещей, глистов</a></li>
+                <li><a href="#">Кости и лакомства</a></li>
+                <li><a href="#">Ветеринария</a></li>
+                <li><a href="#">Витамины для собак</a></li>
+                <li><a href="#">Игрушки</a></li>
+                <li><a href="#">Заменители молока</a></li>
+                <li><a href="#">Косметика</a></li>
+                <li><a href="#">Уход и гигиена</a></li>
+                <li><a href="#">Переноски, спальные места</a></li>
+                <li><a href="#">Груминг</a></li>
+                <li><a href="#">Посуда</a></li>
+                <li><a href="#">Одежда</a></li>
+                <li><a href="#">Аксессуары</a></li>
+            </ul>
+        </li>
+        <li><a href="#"><img src="img/icons/cat.svg" alt=""><span>Кошки</span></a></li>
+        <li><a href="#"><img src="img/icons/parrot-facing-left.svg" alt=""><span>Птицы</span></a></li>
+        <li>
+            <a href="#"><img src="img/icons/hamster.svg" alt=""><span>Грызуны</span></a>
+            <ul>
+                <li><a href="#">Корм для грызунов</a></li>
+                <li><a href="#">Витаминные добавки</a></li>
+                <li><a href="#">Аксессуары</a></li>
+                <li><a href="#">Ветеринария</a></li>
+                <li><a href="#">Игрушки</a></li>
+                <li><a href="#">Клетки для грызунов</a></li>
+                <li><a href="#">Средства гигиены</a></li>
+                <li><a href="#">Лакомства</a></li>
+                <li><a href="#">Живые грызуны</a></li>
+
+            </ul>
+        </li>
+        <li><a href="#"><img src="img/icons/fish.svg" alt=""><span>Рыбы</span></a></li>
+        <li><a href="#"><img src="img/icons/turtle.svg" alt=""><span>Рептилии</span></a></li>
+        <li><a href="#"><img src="img/icons/horse.svg" alt=""><span>Лошади</span></a></li>
+        <li><a href="#">Магазины</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">оплата</a></li>
+        <li><a href="#">Программа лояльности</a></li>
+        <li><a href="#">Контакты</a></li>
+    </ul>
+</nav>
+<!-- /mob-menu -->
+    <!-- /.Modal -->
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.min.js"></script>
+<script src="js/main.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe0dla1mtxJ1WUZ20z3lv8wtPqr1wWAbM&callback=initMap"></script>
+    <!-- /.JS -->
+</body>
+</html>
