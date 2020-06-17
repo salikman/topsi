@@ -161,18 +161,18 @@
 			});
 		});
 	}
-	$( "#range-slider" ).slider({
+	$( ".range-slider" ).slider({
 		range: true,
 		min: 0,
 		max: 500,
 		values: [ 0, 300 ],
 		slide: function( event, ui ) {
-			$( "#mileageOne" ).val(ui.values[ 0 ]);
-			$( "#mileageTwo" ).val(ui.values[ 1 ]);
+			$( ".mileageOne" ).val(ui.values[ 0 ]);
+			$( ".mileageTwo" ).val(ui.values[ 1 ]);
 		}
 	});
-	$( "#mileageOne" ).val($( ".range-slider" ).slider( "values", 0 ));
-	$( "#mileageTwo" ).val($( ".range-slider" ).slider( "values", 1 ));
+	$( ".mileageOne" ).val($( ".range-slider" ).slider( "values", 0 ));
+	$( ".mileageTwo" ).val($( ".range-slider" ).slider( "values", 1 ));
 
 
 })(jQuery);
